@@ -1,5 +1,3 @@
-## 🧠 Core Idea
-
 Cloud computing = **rent IT resources over the internet on-demand** instead of owning them.
 
 -    No upfront cost
@@ -8,7 +6,7 @@ Cloud computing = **rent IT resources over the internet on-demand** instead of o
 
 ---
 
-## 📌 What is Cloud Computing?
+## What is Cloud Computing?
 
 Cloud computing provides:
 
@@ -17,25 +15,25 @@ Cloud computing provides:
 -    Databases
 -    Applications
 
-### 🔑 Key Concept
+### Key Concept
 
 -    **On-demand**
 -    **Pay-as-you-go**
 
 ---
 
-## 🏢 Traditional IT vs Cloud
+## Traditional IT vs Cloud
 
 | Traditional (On-Premises) | Cloud             |
 | ------------------------- | ----------------- |
-| Buy hardware upfront 💰   | Rent instantly ⚡ |
+| Buy hardware upfront      | Rent instantly    |
 | Guess capacity            | Scale anytime     |
 | Maintain servers          | AWS manages       |
 | Slow setup                | Launch in seconds |
 
 ---
 
-## 🌍 Types of Cloud
+## Types of Cloud
 
 ### 1. Private Cloud
 
@@ -54,7 +52,7 @@ Cloud computing provides:
 
 ---
 
-## ⭐ 5 Characteristics of Cloud (Important)
+## 5 Characteristics of Cloud (Important)
 
 1. **On-demand self-service**
 2. **Broad network access**
@@ -64,7 +62,7 @@ Cloud computing provides:
 
 ---
 
-## 💰 Advantages of Cloud
+## Advantages of Cloud
 
 -    Trade **CAPEX → OPEX**
 -    Benefit from **economies of scale**
@@ -75,7 +73,7 @@ Cloud computing provides:
 
 ---
 
-## ⚡ Key Benefits (Exam Keywords)
+## Key Benefits
 
 -    Scalability
 -    Elasticity
@@ -86,7 +84,7 @@ Cloud computing provides:
 
 ---
 
-## 🧩 Real-World Analogy
+## Real-World Analogy
 
 Cloud is like **electricity ⚡**:
 
@@ -95,9 +93,9 @@ Cloud is like **electricity ⚡**:
 
 ---
 
-## 🏗️ Cloud Service Models
+## Cloud Service Models
 
-### 🔹 IaaS (Infrastructure as a Service)
+### IaaS (Infrastructure as a Service)
 
 -    You manage: OS, apps, data
 -    AWS manages: hardware
@@ -107,7 +105,7 @@ Cloud is like **electricity ⚡**:
 
 ---
 
-### 🔹 PaaS (Platform as a Service)
+### PaaS (Platform as a Service)
 
 -    You manage: application + data
 -    AWS manages everything else
@@ -117,7 +115,7 @@ Cloud is like **electricity ⚡**:
 
 ---
 
-### 🔹 SaaS (Software as a Service)
+### SaaS (Software as a Service)
 
 -    AWS manages everything
 
@@ -129,18 +127,7 @@ Cloud is like **electricity ⚡**:
 
 👉 Like ordering food 🍔
 
----
-
-## ⚠️ Common Confusions
-
--    Cloud is NOT free ❌
--    AWS does NOT manage everything ❌
--    Scaling is NOT manual ❌
--    Data transfer is NOT always charged ❌
-
----
-
-## 💸 AWS Pricing Fundamentals
+## AWS Pricing Fundamentals
 
 -    **Compute** → pay per usage time
 -    **Storage** → pay per GB stored
@@ -148,49 +135,3 @@ Cloud is like **electricity ⚡**:
 
 👉 Data IN = FREE  
 👉 Data OUT = PAID
-
----
-
-## 🌍 AWS Global Infrastructure
-
-### 🔹 Regions
-
--    Physical locations (e.g., US-East-1)
--    Choose based on:
-     -    Latency
-     -    Compliance
-     -    Pricing
-     -    Service availability
-
----
-
-### 🔹 Availability Zones (AZs)
-
--    Multiple per region (usually 3)
--    Isolated data centers
--    Used for **high availability**
-
----
-
-### 🔹 Edge Locations
-
--    Used for low latency content delivery
-
----
-
-## 🔐 Shared Responsibility Model
-
-### AWS (Security OF the cloud)
-
--    Hardware
--    Infrastructure
--    Data centers
-
-### You (Security IN the cloud)
-
--    Data
--    OS
--    Configurations
--    Security settings
-
----
